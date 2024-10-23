@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": "让末影人只能拿起西瓜，有效防止小天才崩服",
+		"supported_formats": {
+			"min_inclusive": 45,
+			"max_inclusive": 48
+		}
+
+	}
+}

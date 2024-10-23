@@ -1,0 +1,30 @@
+{
+    "parent": "paperbox:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "MHF_Enderman"
+                }
+            }
+        },
+        "title": "无手末影人 V1.0",
+        "description": {
+            "text": "让末影人只能拿起西瓜"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_player": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "recipes": []
+    }
+}
